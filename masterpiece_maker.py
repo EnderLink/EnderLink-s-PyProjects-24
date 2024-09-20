@@ -53,6 +53,7 @@ def hirst_dots(turtle, rows, columns, length, height, radius):
         turtle.teleport(x, y)
         num_hei -= (height/columns)
 
+#This runs the program, with a 10 dots per row and column, and a square of length 500. The radius is also ten,
 hirst_dots(bob, 10, 10, 500, 500, 10)
 
 
